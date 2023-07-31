@@ -1,0 +1,69 @@
+.add-transaction-container {
+    padding: 8px;
+    position: relative;
+    height: 100%;
+}
+
+.add-transaction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-transaction {
+    font-size: 22px;
+    font-weight: 700;
+    
+    margin: 16px 0;
+}
+
+.transaction-type-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.income-transaction, .expense-transaction {
+    flex-grow: 1;
+    padding: 8px;
+    text-align: center;
+}
+
+.selected-tab {
+    background-color: #212121;
+    color: #f7f7f7;
+}
+
+.transaction-form-container {
+    margin: 16px 0;
+}
+
+.transaction-form-container input, .add-transaction-container textarea {
+    width: 100%;
+    height: 36px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.add-transaction-container textarea {
+    height: 64px;
+}
+
+.transaction-amount, .transaction-description, .transaction-time, .transaction-notes {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.transaction-submit-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #212121;
+    color: #f7f7f7;
+    padding: 8px;
+    text-align: center;
+    border-radius: 6px;
+}

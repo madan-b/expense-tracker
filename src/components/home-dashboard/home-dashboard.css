@@ -1,0 +1,51 @@
+.dashboard-container {
+    height: 25vh;
+    max-width: 100%;
+
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+    margin: 16px 8px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dashboard__top-container, .dashboard__bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-light {
+    opacity: 0.6;
+}
+
+.total-bal {
+    font-size: 24px;
+}
+
+.income-amount, .expense-amount {
+    font-size: 20px;
+}
+
+.show-hide-container {
+    color: #0d94ff;
+}
+
+.eye-icon {
+    width: 16px;
+    height: 16px;
+    fill: #0d94ff;
+}
+
+.show-hide-container {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.mb-4 {
+    margin-top: 4px;
+}

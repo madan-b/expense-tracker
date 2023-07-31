@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.app-container {
+    height: 100vh;
+    max-height: -webkit-fill-available;
+}
+
+.icon-regular {
+    width: 24px;
+    height: 24px;
+}
+
+.center-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
